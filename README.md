@@ -3,10 +3,10 @@
 
 <h2>🎨 Layout</h2>
 <p>Página de cadastro de professores</p>
-<img src="./public/images/cadastro.gif" title="Cadastro" widht="250" height="250">
+<img src="./public/images/cadastro.gif" title="Cadastro" widht="400" height="250">
 
 <p>Página de listagem dos professores</p>
-<img src="./public/images/search.gif" title="Search" widht="250" height="250">
+<img src="./public/images/search.gif" title="Search" widht="400" height="250">
 
 <h2>🚀 Tecnologia </h2>
 <p>Esse projeto foi desenvolvido utilizando as seguintes tecnologias:</p>
