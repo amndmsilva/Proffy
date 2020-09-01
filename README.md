@@ -11,8 +11,6 @@
 <h2>🚀 Tecnologia </h2>
 <p>Esse projeto foi desenvolvido utilizando as seguintes tecnologias:</p>
 
-<p>Esse projeto foi desenvolvido utilizando as seguintes tecnologias:</p>
-
 <a href="https://nodejs.org/en/">Node</a><br />
 <a href="https://expressjs.com/">Express</a><br />
 <a href="https://www.sqlite.org/index.html">SQLite</a><br />
