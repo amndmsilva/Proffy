@@ -1,5 +1,5 @@
 module.exports = async function(db, { proffyValue, classValue, classScheduleValues }) {
-    
+
     //inserir dados na table de proffys
     const insertedProffy = await db.run(`
         INSERT INTO proffys (
@@ -9,9 +9,9 @@ module.exports = async function(db, { proffyValue, classValue, classScheduleValu
             bio
         ) VALUES (
             "${proffyValue.name}",
-            "${proffyValue.avatar}",
-            "${proffyValue.whatsapp}",
-            "${proffyValue.bio}"
+           "${proffyValue.avatar}",
+           " ${proffyValue.whatsapp}",
+            '${proffyValue.bio}'
         );
     `)
 
@@ -40,10 +40,10 @@ module.exports = async function(db, { proffyValue, classValue, classScheduleValu
                 time_from,
                 time_to
             ) VALUES (
-                "${class_id}",
-                "${classScheduleValue.weekday}",
-                "${classScheduleValue.time_from}",
-                "${classScheduleValue.time_to}"
+                ${class_id},
+                ${classScheduleValue.weekday},
+                ${classScheduleValue.time_from},
+                ${classScheduleValue.time_to}
             );
         `)
     })

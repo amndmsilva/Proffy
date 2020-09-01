@@ -1,7 +1,8 @@
 
 
 #page-landing {
-    background: var(--color-primary);
+    background-color: var(--color-primary);
+    background-image: linear-gradient(to right, #8257E5, #04D361);
 }
 
 #page-landing #container {

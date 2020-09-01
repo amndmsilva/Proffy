@@ -1,4 +1,4 @@
-// Dados
+Dados
 const proffys = [
     { 
         name: "Diego Fernandes", 

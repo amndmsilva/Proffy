@@ -92,7 +92,7 @@ async function saveClasses(req, res) {
     console.log(error) 
     } 
 
-} 
+}
 
 module.exports = { 
     pageLanding, 
